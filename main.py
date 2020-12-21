@@ -11,7 +11,7 @@ from db.entidades import Reserva
 
 app=FastAPI()
 origins=[
-    "https://hotel-tic-front.herokuapp.com/", "http//localhost",
+    "https://hotel-tic-front.herokuapp.com/", "http//localhost", "*",
 ]
 
 app.add_middleware(
